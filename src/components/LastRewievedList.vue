@@ -1,7 +1,7 @@
 <template>
 <h3>Останні переглянуті товари</h3>
   <div class="list">
-<last-rewieved-item v-for="item in productList" :key="item.id" :product="item" :heartLink="heartLink" :cartLink="cartLink"/>
+<last-rewieved-item v-for="item in productList" :key="item.id" :product="item" :heart-link="heartLink" :cart-link="cartLink"/>
 
   </div>
 </template>
